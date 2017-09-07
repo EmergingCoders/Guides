@@ -9,7 +9,8 @@ You can do this using the command:
 
 If you are not familiar with vi/vim use you will first need to:
 press ```escape``` + ```:set paste```
-press ```i``` to go into insert mode. 
+
+Then press ```i``` to go into insert mode. 
 
 At the bottom of the file, paste the following:
 
