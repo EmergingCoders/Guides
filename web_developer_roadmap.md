@@ -1,4 +1,4 @@
-![Web Developer Roadmap](http://i.imgur.com/GyvcunJ.png):wq:
+![Web Developer Roadmap](http://i.imgur.com/GyvcunJ.png)
 
 > Roadmap to becoming a web developer in 2017
 
