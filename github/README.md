@@ -31,5 +31,10 @@ git push -u origin master
  
 Navigate to your root directory
 
-```git remote add origin https://github.com/c0ldlimit/vimcolors.git
-git push -u origin master```
+```
+git remote add origin https://github.com/kkneomis/vimcolors.git
+git push -u origin master
+```
+
+
+In any case, be sure to replace the remote link with the one from your own project.
