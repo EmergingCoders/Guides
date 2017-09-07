@@ -1,11 +1,11 @@
 This tutorial provides a general overview to HTML and CSS.
 
-#HTML
+# HTML
 
 HTML is a markup language. It tells the web browser how to structure and display content. Every HTML file is just a text document. If you open it in a text editor you see words and markup, but if you open it in your browser you see formatted text with no markup symbols.
 
 
-##Tags
+## Tags
 
 HTML uses a pre-defined set of elements to different types of content. Elements are enclosed by opening and closing tags (with a few exceptions). Tags are short pieces of text indicating the type of content enclosed, surrounded by angle brackets (<>). The closing tag looks just like the opening tag except it has a forward slash (/) after the first angle bracket.
 
@@ -24,7 +24,7 @@ Elements can also contain other elements within them. The tag `<em>` indicates t
 When rendered (opened) in the browser, the line above will look like this:
 <p>This is a paragraph with <em>some italicized text</em> in it.</p>
 
-##An HTML page
+## An HTML page
 
 Elements contain other elements to create a hierarchal structure. This is how an html page is built. The chunk below represents a simple but complete html page.
 
@@ -51,7 +51,7 @@ The body section is where all the content that shows up on the page goes, like t
 
 The hierarchical, nested structure of HTML is sometimes referred to as the Document Object Model, or DOM. You can think of the page (DOM) as a tree with parents and children — think of a family tree. Being able to access elements of the tree comes into play when we want to manipulate the HTML with CSS or JavaScript.
 
-##Other common tags
+## Other common tags
 
 You can see all the possible tags in the [MDN element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), or see below for some of the most common ones.
 
@@ -66,7 +66,7 @@ You can see all the possible tags in the [MDN element reference](https://develop
 * `<!-- ... -->` comments
 
 
-####Headings `<h1>`, `<h2>`
+#### Headings `<h1>`, `<h2>`
 
 `<h1>...</h1>` (also h2, h3, h4, etc..) are used for various headings, in decreasing size. If you think of your page like an outline, h1 could be used for the top level section headings, h2 for the secondary headings, etc. 
 
@@ -101,7 +101,7 @@ with line<br>
 breaks.</p>
 
 
-####Links `<a>`
+#### Links `<a>`
 
 The a tag indicates a link. It also has some extra information between the a and the > character, letting you designate the destination of the link. This extra href field is known as an attribute.
 
@@ -112,7 +112,7 @@ The line above renders as:
 
 Click on <a href="http://p5js.org">this text</a>.
 
-####Images `<img>`
+#### Images `<img>`
 
 The img tag adds an image to the page. It also contains an attribute to specify the source of the image to display. The img element does not contain any text content or any other elements. Since it is an empty element, it doesn't need a closing tag. Instead, the forward slash from the closing tag is stuck just inside of the > character at the end of the opening tag.
 
@@ -126,13 +126,13 @@ The source can be relative to the html file you are working with (above), or it 
 <img src="https://raw.githubusercontent.com/lmccart/p5.js/master/examples/p5.Image/unicorn.jpg" />
 ```
 
-##Attributes
+## Attributes
 
 Attributes provide extra information necessary to a tag to work properly (such as the src attribute on the `<img>` tag or the href attribute on the `<a>` tag) or just provide some optional information. An attribute generally consists of an attribute name and an attribute value (usually surrounded by quotes), with an = sign between them.
 
 You can see all the attributes and the tags they are associated with in the [MDN attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes).
 
-###class and id
+### class and id
 
 Two common attributes are "class" and "id", both of which are used to identify particular elements when adding [CSS rules](https://github.com/processing/p5.js/wiki/Intro-to-HTML-and-CSS#using-an-external-stylesheet) or manipulating the page using JS. 
 
@@ -172,7 +172,7 @@ Another alternative is to separate out the CSS into it's own file, getting us cl
 <link rel="stylesheet" type="text/css" href="style.css">
 ```
 
-###Defining CSS rules
+### Defining CSS rules
 
 When using inline css, style properties are set per element, but when you use an external stylesheet you define "rules" that get applied more generally to elements. The format for a rule is like this:
 
@@ -227,7 +227,7 @@ p {
 
 In the example above, everything within a paragraph tag is green and has 20px font. The text within the div with id "first-section" has monospace font. Any text with class "donkeys" has a pink background.
 
-###CSS rule hierarchy
+### CSS rule hierarchy
 
 The rules propagate inwards, so every element will have the styling of it's own properties and tags as well as those of any enclosing. In the example below, notice how the paragraph with class "donkeys" has all of the CSS properties for "p", ".donkeys", and "#first-section" applied. 
 
@@ -271,7 +271,7 @@ p {
 
 If there is a conflict of property values, the more immediate rule will be followed, overriding any enclosing parent rules. This is what is meant by the word "cascading" in Cascading Style Sheet (CSS).
 
-#Positioning and layout using HTML and CSS
+# Positioning and layout using HTML and CSS
 
 Coming soon...
 
