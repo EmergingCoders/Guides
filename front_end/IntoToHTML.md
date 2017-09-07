@@ -70,7 +70,7 @@ You can see all the possible tags in the [MDN element reference](https://develop
 
 `<h1>...</h1>` (also h2, h3, h4, etc..) are used for various headings, in decreasing size. If you think of your page like an outline, h1 could be used for the top level section headings, h2 for the secondary headings, etc. 
 
-####Line breaks `<br>`
+#### Line breaks `<br>`
 
 Your browser ignores line breaks in your html. So these two blocks would render the same:
 
@@ -164,7 +164,7 @@ You can set style properties inline using the style attribute. Inside the quotes
 You can find all css style attributes in this [CSS reference](https://developer.mozilla.org/en-US/docs/Web/CSS). 
 
 
-##Using an external stylesheet
+## Using an external stylesheet
 
 Another alternative is to separate out the CSS into it's own file, getting us closer to the separate content and style goal mentioned above. In this case, you start by making a new file with file extension `.css`, and linking it into the `<head>` of your HTML file using the `<link>` tag.
 
@@ -275,7 +275,7 @@ If there is a conflict of property values, the more immediate rule will be follo
 
 Coming soon...
 
-#Reference
+# Reference
   * [Mozilla HTML guide](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML)
   * [HTML tag cheatsheet](http://www.simplehtmlguide.com/cheatsheet.php)
   * [HTML tag reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
