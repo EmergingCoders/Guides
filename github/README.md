@@ -1,5 +1,14 @@
 # Github Basics
 
+## If this is your first time using git
+
+First, you need to tell Git who you are:
+
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 ## Pushing to a new github repository (from the command line)
 The first thing you want to do is go to github and create a new project. 
 
