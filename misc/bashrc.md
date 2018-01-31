@@ -20,11 +20,6 @@ export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
-toilet -f mono12 -F gay "Simeon  Kakpovi"
-alias docs='cd /Users/simeonkakpovi/Documents'
-alias down='cd /Users/simeonkakpovi/Downloads'
-alias desk='cd /Users/simeonkakpovi/Desktop'
-alias husb='cd /Users/simeonkakpovi/Documents/hu_webmaster/bschoolbeta'
 alias grepc="grep --color=always"
 alias histogram="sort | uniq -c | sort -rn"
 alias ttop="top -R -F -s 10 -o rsize"
